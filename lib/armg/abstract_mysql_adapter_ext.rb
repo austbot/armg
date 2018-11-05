@@ -9,7 +9,7 @@ module Armg::AbstractMysqlAdapterExt
 
     is.each do |i|
       if i.type == :spatial
-        i.lengths = nil
+        
       end
     end
 
